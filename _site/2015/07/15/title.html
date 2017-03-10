@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>a post with code</title>
+    <meta name="description" content="A simple, whitespace, helvetica based portfolio theme.
+">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/2015/07/15/title.html">
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <nav class="site-nav">
+
+      <div class="trigger">
+        <!--  instead of blog -->
+        <a class="page-link" href="/">blog</a>
+
+        
+          
+          <a class="page-link" href="/about/">關於我</a>
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/poetry/">詩</a>
+          
+        
+          
+          <a class="page-link" href="/portfolio/">相片故事</a>
+          
+        
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">a post with code</h1>
+    <p class="post-meta">July 15, 2015 — 23:09</p>
+  </header>
+
+  <article class="post-content">
+    <p>This theme implements a built-in Jekyll feature, the use of Pygments, for sytanx highlighting. It supports more than 100 languages. This example is in C++. All you have to do is wrap your code in a liquid tag:</p>
+
+<p>{% highlight c++ %}  <br /> code code code <br /> {% endhighlight %}</p>
+
+<p>Produces something like this:</p>
+
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<span class="p">{</span>
+	<span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
+
+	<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
+	<span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
+	<span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
+	
+	<span class="kt">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
+
+	<span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
+	<span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
+		<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+	<span class="p">}</span>
+	
+	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+  	<p>This site was built using <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and is hosted on <a href="https://github.com" target="_blank">Github</a> Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a> and text generated with <a href="http://hipsum.co" target="_blank">Hipster Ipsum</a>. &#169; 2015</p>
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
