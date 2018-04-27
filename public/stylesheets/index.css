@@ -1,0 +1,76 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+.bodyscroll {
+    height: 100%;
+    margin: 0;
+    
+     overflow-y: scroll;
+    overflow-y: visible;
+}
+
+.pic1 {
+    /* The image used */
+    background-image: url("../images/1484930140986.JPEG");
+
+    /* Full height */
+    height: 100%;
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    transition: left 1.5s;
+    transition-timing-function: ease;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.area2 {
+    height: 100%;
+    width: 0%;
+    transition: left 1.5s;
+    transition-timing-function: ease;
+    left: 100%;
+    top: 0;
+    display: hidden;
+}
+
+.btn {
+    z-index: 3;
+    position: fixed;
+    left: 50%;
+    top: 75%;
+}
+
+.pic1transform {
+    position: fixed;
+    left: -100%;
+}
+
+.area2transform {
+
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+
+    z-index: 1;
+
+}
+
+.pic2 {
+    width: 30%;
+    height: 30%;
+    background-repeat: no-repeat;
+    background-image: url("../images/git.png");
+}
