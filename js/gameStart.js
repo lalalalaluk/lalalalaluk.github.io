@@ -55,16 +55,16 @@ const gameStart = {
             if (obj1.body.speed > obj2.body.speed)
             {
                 obj1.setVelocityY(obj1.body.velocity.y*0.01);
-                obj1.setVelocityX(obj1.body.velocity.x*0.1);
-                obj2.setVelocityY(obj2.body.velocity.y*1.1);
-                obj2.setVelocityX(obj2.body.velocity.x*1.1);
+                obj1.setVelocityX(obj1.body.velocity.x*0.01);
+                obj2.setVelocityY(obj2.body.velocity.y*1.01);
+                obj2.setVelocityX(obj2.body.velocity.x*1.01);
             }
             else
             {
-                obj1.setVelocityY(obj1.body.velocity.y*1.1);
-                obj1.setVelocityX(obj1.body.velocity.x*1.1);
+                obj1.setVelocityY(obj1.body.velocity.y*1.01);
+                obj1.setVelocityX(obj1.body.velocity.x*1.01);
                 obj2.setVelocityY(obj2.body.velocity.y*0.01);
-                obj2.setVelocityX(obj2.body.velocity.x*0.1);
+                obj2.setVelocityX(obj2.body.velocity.x*0.01);
             }
     
         }
